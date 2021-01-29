@@ -24,7 +24,8 @@ c = random.choice
 
 def male():
     part = c(nm1)
-    if (choice := random.randint(1, 4) >= 2):
+    choice = random.randint(1, 4)
+    if (choice >= 2):
         part += c(nm2)
         if choice >= 3:
             part += c(nm3)

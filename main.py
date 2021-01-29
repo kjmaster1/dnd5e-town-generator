@@ -199,6 +199,7 @@ def add_occupation():
 def show_contributors():
     return render_template('contribute/contributors.html', conts=contributors.get(), allow_ads=ALLOW_ADS)
 
+app.config['SECRET_KEY'] = os.urandom(12)
 
 if __name__ == '__main__':
     app.config['SECRET_KEY'] = os.urandom(12)

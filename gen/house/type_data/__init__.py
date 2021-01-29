@@ -12,7 +12,8 @@ def get_house_type_data(seed, house):
     try:
         module = DATA_MODULE[house.occupation]
     except KeyError:
-        if (r := review.get_review(house)) is not None:
+        r = review.get_review(house)
+        if r is not None:
             return {'review': r}
         return {}
     else:

@@ -1,1 +1,8 @@
-2020-Mar-26
+2021-Jan-13
+[2021-Jan-13 20:53:50]  User #20 : GET /
+[2021-Jan-13 20:53:56]  User #20 : POST /
+[2021-Jan-13 20:53:56]  User #20 : GET /town/Olwell/humongous
+[2021-Jan-13 20:54:15]  User #20 : GET /Olwell/humongous/store/Barkeep
+[2021-Jan-13 20:57:31]  User #20 : GET /Olwell/humongous/npc/51/Barkeep/0/0
+[2021-Jan-13 20:58:57]  User #20 : GET /Olwell/humongous/house/Barkeep/51/0
+[2021-Jan-13 20:58:57]  User #20 : GET /Olwell/humongous/tavern/51/0
